@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy==1.26.4 #luis
+#numpy==2.1.1 #erv
+scikit-learn==1.3.0
+psycopg2-binary
+requests
+joblib==1.4.2
+xgboost
+plotly
+matplotlib
+python-telegram-bot
+pyTelegramBotAPI
+schedule
+pymongo

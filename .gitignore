@@ -1,0 +1,18 @@
+# Ignora archivos del sistema Mac
+.DS_store
+.env
+
+# Carpeta de Trabajo
+/TRABAJO
+/04_Extra/ID/IMAGES
+/04_Extra/ID/IMAGES_PREPROC
+/04_Extra/ID/IMAGES_PREPROC2
+/04_Extra/ID
+
+
+
+#Ignora .env de la carpeta APP
+/04_APP/APP/.env
+
+#Ignora .env de la carpeta APP
+/13_ERV/.env
