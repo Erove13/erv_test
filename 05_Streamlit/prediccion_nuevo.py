@@ -20,7 +20,7 @@ collection = db[st.secrets["mongo"]["collection"]]
 # 📌 URL del modelo en GitHub RAW
 modelo_url = "https://raw.githubusercontent.com/luismrtnzgl/ironbrick/main/05_Streamlit/models/stacking_model.pkl"
 
-# @st.cache_resource
+@st.cache_resource
 def load_model():
     """Descarga el modelo desde GitHub y lo carga en Streamlit."""
     modelo_path = "/tmp/stacking_model.pkl"
@@ -31,6 +31,7 @@ def load_model():
             f.write(response.content)
 
     return joblib.load(modelo_path)
+
 
 
 # # 📌 Cargar el modelo
